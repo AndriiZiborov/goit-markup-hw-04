@@ -1,2 +1,2 @@
-# goit-markup-hw-04
-Декоративные элементы
+# goit-markup-hw-02
+portfolio.html+css
