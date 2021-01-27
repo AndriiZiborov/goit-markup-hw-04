@@ -92,10 +92,10 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  
 }
 
 .nav-site-link {
-  /* background-color: tomato; */
   margin-right: 50px;
 }
 
@@ -109,30 +109,17 @@ img {
 }
 
 .contacts-item {
-  /* background-color: teal; */
   margin-right: 50px;
   display: inline-flex;
   align-items: center;
+  
 }
 
-.contacts-item::before {
-  content: "";
+.contacts-icon {
   display: inline-block;
+  fill: currentColor;
   margin-right: 10px;
 }
-
-.envelope::before {
-  width: 16px;
-  height: 12px;
-  background-image: url(../img/envelope.svg);
-}
-
-.mobile::before {
-  background-image: url(../img/smartphone.svg);
-  width: 10px;
-  height: 16px;
-}
-
 
 .block-links {
   margin-left: 93px;
@@ -168,6 +155,15 @@ footer {
 
   background-color: var(--dark-bg-color);
   color: var(--white-color);
+}
+
+footer .container {
+  display: flex;
+}
+
+.adress-block {
+  /* outline: 1px solid tomato; */
+  margin-right: 70px;
 }
 
 address {
@@ -213,6 +209,31 @@ address a {
 address a:hover,
 address a:focus {
   color: var(--accent-color);
+}
+
+.join-block {
+  /* outline: 1px solid tomato; */
+  padding-top: 12px;
+}
+
+.join-block-element {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14; 
+  text-transform: uppercase;
+}
+
+.joinblock-social-list {
+  display: flex;
+  margin-top: 20px;
+}
+ 
+.join-block .item-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: #ffffff;
 }
 
 /* заказ услуги */
@@ -611,4 +632,3 @@ address a:focus {
   padding-right: 15px;
 }
 
-test commit
