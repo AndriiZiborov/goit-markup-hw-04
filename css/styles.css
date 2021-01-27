@@ -133,13 +133,6 @@ img {
   height: 16px;
 }
 
-/* .contacts-item:hover {
-  
-  color: var(--accent-color);
-  cursor: pointer;
-  background-image: url(../css/img/envelopehover.svg);
-  background-repeat: no-repeat;
-} */
 
 .block-links {
   margin-left: 93px;
@@ -223,14 +216,29 @@ address a:focus {
 }
 
 /* заказ услуги */
+.background {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;  
+  margin-right: auto;
+  
+  background-image: url(../img/herobackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-size: cover;
+}
+
 .service-container {
   margin-top: 0;
   padding-bottom: 200px;
   padding-top: 200px;
 
-  background-color: var(--dark-bg-color);
+  /* background-color: var(--dark-bg-color); */
   text-align: center;
 }
+
+
+
 
 .service-title {
   margin: 0;
@@ -397,7 +405,7 @@ address a:focus {
   
 }
 
-.social-links-item {
+.item-link {
   
   display: flex;
   justify-content: center;
@@ -419,21 +427,18 @@ address a:focus {
   margin-right: 10px;
 }
 
-.social-links-item:hover {
+.item-link:hover {
   color: #ffffff;
 }
 
-.social-links-icon:hover,
-.social-links-icon:focus {
+.item-link:hover,
+.item-link:focus {
   
   background-color: var(--accent-color);
   border-radius: 50%;
   cursor: pointer;
 }
 
-.social-links-item a {
-  color: inherit;
-}
 
 /* стили кнопок */
 .button {
@@ -565,7 +570,7 @@ address a:focus {
   display: flex;
 }
 
-.clients-item {
+.clients-item-link {
   width: 170px;
   height: 90px;
   display: flex;
@@ -577,8 +582,8 @@ address a:focus {
   border-radius: 4px;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-item-link:hover,
+.clients-item-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
   cursor: pointer;
