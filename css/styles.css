@@ -598,6 +598,17 @@ address a:focus {
   margin-bottom: 0;
 }
 
+.offers-page-element:hover,
+.offers-page-element:focus{
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.offers-page-element a:focus {
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* постоянные клиенты */
 .clients {
   padding-top: 94px;
