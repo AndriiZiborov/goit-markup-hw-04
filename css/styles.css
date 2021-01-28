@@ -147,7 +147,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-/* футер */
+    /* ===============ФУТЕР========== */
 
 footer {
   padding-top: 60px;
@@ -159,6 +159,8 @@ footer {
 
 footer .container {
   display: flex;
+  align-items: baseline;
+  
 }
 
 .adress-block {
@@ -213,7 +215,6 @@ address a:focus {
 
 .join-block {
   /* outline: 1px solid tomato; */
-  padding-top: 12px;
 }
 
 .join-block-element {
@@ -236,7 +237,7 @@ address a:focus {
   color: #ffffff;
 }
 
-/* заказ услуги */
+   /* ============ ЗАКАЗ УСЛУГИ ============ */
 .background {
   max-width: 1600px;
   height: 600px;
@@ -290,7 +291,7 @@ address a:focus {
 }
 
 .softskills-titles {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 0;
   font-weight: 700;
   font-size: 14px;
@@ -311,7 +312,6 @@ address a:focus {
   display: inline-block;
   width: 270px;
   height: 120px;
-  margin-bottom: 30px;
 
   background: #f5f4fa;
   border-radius: 4px;
