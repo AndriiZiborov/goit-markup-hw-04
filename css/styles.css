@@ -445,8 +445,6 @@ address a:focus {
 .social-links {
   
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 16px;
 }
 
@@ -546,9 +544,6 @@ address a:focus {
 }
 
 .offers-text {
-  /* задал отдельно ширину этому контейнеру т.к. она почему-то тут была 368px
-  это было заметно при фокусе */
-  width: 370px;
   padding: 20px 24px;
 }
 
@@ -590,6 +585,7 @@ address a:focus {
   border: 1px solid #eeeeee;
 }
 
+
 .offers-page-element:nth-child(3n) {
   margin-right: 0;
 }
@@ -598,13 +594,12 @@ address a:focus {
   margin-bottom: 0;
 }
 
-.offers-page-element:hover,
-.offers-page-element:focus{
-  border: 1px solid #EEEEEE;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.offers-page-link {
+  display: inline-block;
 }
 
-.offers-page-element a:focus {
+.offers-page-link:hover,
+.offers-page-link:focus {
   border: 1px solid #EEEEEE;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
